@@ -1,0 +1,23 @@
+.LogIn {
+    align-items: center;
+    background: #ccc;
+    color: #4C864A;
+    border: 1px solid #000;
+    border-radius: 5px;
+    box-shadow: 10px 8px 5px #ccc;
+    display: flex;
+    font-weight: bold;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px;
+    text-align: center;
+    width: 300px;
+  }
+  .LogIn:focus {
+  outline: 2px dashed #4C864A;
+  }
+  
+  .LogIn::placeholder {
+  color: #4C864A;
+  }

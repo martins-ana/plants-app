@@ -1,23 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import CadastroLogin from './pages/CadastroLogin';
+import './styles/reset.css';
+import './styles/normalize.css';
+import InicioApp from './pages/InicioApp';
+import Login from './pages/Login';
+import CreateAccount from './pages/CreateAccount';
+import PopularItems from './pages/PopularItems';
+import PaymentSuccess from './pages/PaymentSuccessful';
+import PrePurchase from './pages/PrePurchase';
+import Payment from './pages/Payment';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <CadastroLogin /> */}
+      {/* <Login /> */}
+      {/* <CreateAccount /> */}
+      {/* <InicioApp /> */}
+      {/* <PopularItems /> */}
+      {/* <PrePurchase /> */}
+      <Payment />
+      {/* <PaymentSuccess /> */}
     </div>
   );
 }

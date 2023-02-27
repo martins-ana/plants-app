@@ -1,0 +1,39 @@
+.inputAcessAccount {
+    background: #ccc;
+    color: #4C864A;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #ccc;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px;
+    width: 300px;
+}
+
+.inputAcessAccount:focus {
+  outline: 2px dashed #4C864A;
+}
+
+.inputAcessAccount::placeholder {
+  color: #4C864A;
+}
+
+.botao {
+  background: #ccc;
+  color: #4C864A;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 20px;
+  padding: 10px;
+}
+.botao:focus {
+outline: 2px dashed #4C864A;
+}
+
+.botao::placeholder {
+color: #4C864A;
+}

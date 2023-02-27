@@ -1,0 +1,30 @@
+.titleIcon{
+display: flex;
+justify-content: space-between;
+padding: 50px 25px;
+color: #4C864A;
+}
+
+.popularItemsContent {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  color: #4C864A;
+}
+
+.titleNewFeat {
+  margin-left: 8%;
+  font-weight: bold;
+}
+
+.conjuntoItemsPopular {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  padding-bottom: 50px;
+  width: 100%;
+}

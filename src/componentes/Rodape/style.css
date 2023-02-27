@@ -1,0 +1,17 @@
+.rodape {
+  align-items: center;
+  background-color: #4C864A;
+  height: 62px;
+  display: flex; 
+  justify-content: space-between;
+  padding: 0 48px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.iconHouse, .iconFav , .iconShop, .iconUser {
+  color: #FFF;
+}

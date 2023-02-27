@@ -1,0 +1,28 @@
+.onTopBelow {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 100vh;
+  gap: 50px;
+  padding-bottom: 100px
+}
+
+.btn{
+  color:#4C864A;
+  background: transparent;
+  border: none;
+}
+
+.btn:active {
+  font-weight: bold;
+}
+
+.btnTitles{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 48px;
+  box-sizing: border-box;
+}

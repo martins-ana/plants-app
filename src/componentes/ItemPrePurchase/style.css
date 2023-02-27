@@ -1,0 +1,26 @@
+.prePurchase {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+    gap: 32px;
+    color: #4C864A;
+}
+
+.aloePlant {
+    width: 100%;
+    height: 344px;
+    max-width: 310px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 32px;
+    /* border: 5px solid red; */
+}
+
+.descricaoPrePurchase {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}

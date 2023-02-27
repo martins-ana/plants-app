@@ -1,0 +1,28 @@
+.sizeList, .quantityList {
+  color: #4C864A;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 12px;
+}
+
+.quantityList {
+  gap: 0;
+}
+
+.buttonQuantityList:nth-child(1) {
+  margin-left: 12px;
+}
+
+.buttonSizeList, .buttonQuantityList {
+  border-radius: 5px;
+  border: 2px solid #4C864A;
+  height: 40px;
+  width: 85px;
+  background-color: rgba(76, 134, 74, 0.2);
+  color: #4C864A;
+}
+
+.buttonQuantityList
+{
+}

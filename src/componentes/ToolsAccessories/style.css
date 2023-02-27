@@ -1,0 +1,17 @@
+.titleToAccessories {
+  color: #4C864A;
+  font-size: 24px;
+  margin-left: 24px;
+}
+
+.ToAccess {
+align-items: center;
+  display: flex;
+  justify-content: center;
+  
+}
+.toolsAccessories {
+border-radius: 32px;
+max-width: 350px;
+max-height: 350px;
+}

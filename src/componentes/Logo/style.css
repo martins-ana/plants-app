@@ -1,0 +1,6 @@
+.logo {
+  display: flex;
+  max-height: 150px;
+  padding: 15px;
+  width: 100px;
+}

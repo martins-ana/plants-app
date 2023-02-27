@@ -1,0 +1,25 @@
+.popularItems {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 40%;
+}
+
+.imgPopularPlants {
+    border-radius: 32px;
+    width: 100%;
+    height: 200px;
+}
+
+.productInfo {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.preco {
+    margin-top: 10px;
+}

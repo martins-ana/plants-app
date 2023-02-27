@@ -1,0 +1,39 @@
+.titleCreateAccount {
+  color: #4C864A;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+  width: 250px;
+}
+
+
+.input-cadastro, .register {
+  background: #ccc;
+  color: #4C864A;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ccc;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  padding: 20px;
+  width: 300px;
+}
+
+.input-cadastro, .register:focus {
+outline: 2px dashed #4C864A;
+}
+
+.input-cadastro::placeholder{
+color: #4C864A;
+}
+
+.register {
+  align-items: center;
+  color: #4C864A;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+}

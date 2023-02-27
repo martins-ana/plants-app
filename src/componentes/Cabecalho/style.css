@@ -1,0 +1,12 @@
+.cabecalho {
+    align-items: center;
+    background-color: #4C864A;
+    height: 62px;
+    display: flex; 
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.iconMenu, .iconSearch , .iconMenuVert {
+    color: #FFF;
+}
